@@ -17,6 +17,11 @@
         </activity>
         <activity android:name=".AddFishActivity" />
         <activity android:name=".DetailActivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA6bFgiMfSpwi5w2HlXQhohqd6d6R4j6OU" />
+
     </application>
 
 </manifest>

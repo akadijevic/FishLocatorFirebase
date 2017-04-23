@@ -38,7 +38,7 @@ public class FishFirebaseData {
         return newFish;
     }
 
-    public Fish createFish( String species, String weightInOz, String dateCaught, String locationLatitude, String locationLongitude) {           //Added String rating as a parameter
+    public Fish createFish( String species, String weightInOz, String dateCaught, Double locationLatitude, Double locationLongitude) {           //Added String rating as a parameter
         // ---- Get a new database key for the vote
         String key = myFishDbRef.child(FishDataTag).push().getKey();
         // ---- set up the fish object

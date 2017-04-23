@@ -58,6 +58,25 @@
         android:id="@+id/editTextDate" />
 
     <Button
+        android:text="Map Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonMap" />
+
+    <TextView
+        android:text="Location (Lat,Long)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextLat"  />
+
+    <Button
         android:text="Save Fish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

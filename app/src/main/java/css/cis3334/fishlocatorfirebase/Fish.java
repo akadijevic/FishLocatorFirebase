@@ -12,13 +12,13 @@ public class Fish implements Serializable {
     private String species;
     private String weightInOz;
     private String dateCaught;
-    private String locationCaughtLatitude;
-    private String locationCaughtLongitude;
+    private Double locationCaughtLatitude;
+    private Double locationCaughtLongitude;
 
     public Fish() {
     }
 
-    public Fish(String key, String species, String weightInOz, String dateCaught, String locationCaughtLatitude, String locationCaughtLongitude) {
+    public Fish(String key, String species, String weightInOz, String dateCaught, Double locationCaughtLatitude, Double locationCaughtLongitude) {
         this.key = key;
         this.species = species;
         this.weightInOz = weightInOz;
@@ -27,7 +27,7 @@ public class Fish implements Serializable {
         this.locationCaughtLongitude = locationCaughtLongitude;
     }
 
-    public Fish(String species, String weightInOz, String dateCaught, String locationCaughtLatitude, String locationCaughtLongitude) {
+    public Fish(String species, String weightInOz, String dateCaught, Double locationCaughtLatitude, Double locationCaughtLongitude) {
         this.species = species;
         this.weightInOz = weightInOz;
         this.dateCaught = dateCaught;
@@ -76,19 +76,19 @@ public class Fish implements Serializable {
         this.dateCaught = dateCaught;
     }
 
-    public String getLocationCaughtLatitude() {
+    public Double getLocationCaughtLatitude() {
         return locationCaughtLatitude;
     }
 
-    public void setLocationCaughtLatitude(String locationCaughtLatitude) {
+    public void setLocationCaughtLatitude(Double locationCaughtLatitude) {
         this.locationCaughtLatitude = locationCaughtLatitude;
     }
 
-    public String getLocationCaughtLongitude() {
+    public Double getLocationCaughtLongitude() {
         return locationCaughtLongitude;
     }
 
-    public void setLocationCaughtLongitude(String locationCaughtLongitude) {
+    public void setLocationCaughtLongitude(Double locationCaughtLongitude) {
         this.locationCaughtLongitude = locationCaughtLongitude;
     }
 
